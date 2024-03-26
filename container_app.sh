@@ -1,14 +1,14 @@
 #!/bin/bash
 
-if [ "$#" -ne 2 ]; then
+if [ "$#" -ne 4 ]; then
     echo "Usage: $0 container_app_name image_name:image_tag port registry_password"
     exit 1
 fi
 
-app_name = $1
-image = $2
-port = $((10#$3))
-registry_pass = $4
+app_name=$1
+image=$2
+port=$((10#$3))
+registry_pass=$4
 
 # 変数の読み込み
 source variables.conf
