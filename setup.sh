@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# CLI のインストール
+# curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
 # Azure CLI の最新化
 az upgrade
 
