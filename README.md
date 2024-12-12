@@ -1,19 +1,14 @@
-### cliをコマンド実行可能状態
+### cliをコマンド実行可能状態(初回のみ)
 ```
 bash setup.sh
 ```
 
-### リソースグループ、container app 環境、container registryを作成、container registryにログイン
+### ログイン(初回以降)
 ```
-bash start.sh
-```
-
-### localのdocker imageを container registryにプッシュ
-```
-bash image_push.sh
+az login
 ```
 
-### container appsを作成
+### リソースグループ、container app 環境
 ```
-
+hogehoge
 ```
